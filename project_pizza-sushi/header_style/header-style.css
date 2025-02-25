@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 130px;
+	background-color: lightgray;
+	justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  border: none;
+  width: 120px;
+  height: 120px;
+}
+
+.logo-img {
+  width: 110px;
+  height: 110px;
+}
+
+button.number {
+	font-size: 20px;
+	margin: 40px;
+	padding: 10px;
+	cursor: pointer;
+	border: solid 1px rgb(204, 29, 29);
+	border-radius: 30px;
+	font-style: normal;
+}
+
+input {
+	width: 200px;
+	padding: 10px;
+	font-size: 20px;
+	margin: 40px auto;
+	border-radius: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.search-input {
+	width: 160px;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 30px;
+}
+
+.search-button {
+	font-size: 20px;
+	padding: 10px;
+	cursor: pointer;
+	border: solid 1px rgb(204, 29, 29);
+	border-radius: 30px;
+	font-weight: bolder;
+}
+
+.search-button-img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.time {
+	font-size: 18px;
+	font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.socials-button-instagram {
+  width: 50px;
+  height: 50px;
+	font-size: 20px;
+	border-radius: 50%;
+  margin: 10px;
+}
+
+.socials-img-instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.socials-button-youtube {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.socials-img-youtube {
+  width: 30px;
+  height: 30px;
+}
+
+.trash {
+  width: 90px;
+  height: 70px;
+  border-radius: 20px;
+}
+
+.trash-img {
+  width: 50px;
+  height: 50px;
+}
