@@ -1,11 +1,11 @@
-const main = document.querySelector("main");
+const main = document.querySelector("section");
 const productCount = document.querySelector("#product-count");
 
 const pizzas = [
   {
     id: 1,
     name: "Margherita",
-    price: 21.90,
+    price: 21.9,
     img: "https://cdn.clever.by/assets/2024/06/21/7891d07c4bc914966e69f345901710d6---png_800x500:whitepadding15_fb108_convert.png",
     description:
       "Delicious classic pizza with mozzarella, tomatoes, basil, and fresh basil.",
@@ -14,16 +14,15 @@ const pizzas = [
   {
     id: 2,
     name: "Peperoni",
-    price: 19.90,
+    price: 19.9,
     img: "https://media.istockphoto.com/id/905492462/photo/pizza-margarita-with-mozzarella-cheese-basil-and-tomato-template-for-your-design-and-menu-of.jpg?s=612x612&w=0&k=20&c=J4L7If3oJp0IrZ5IXEc-_r0WU0HNa7U5Yn4IW7ynuVo=",
-    description:
-      "Delicious classic pizza peperoni, tomatoes, italian species.",
+    description: "Delicious classic pizza peperoni, tomatoes, italian species.",
     weight: 1000,
   },
   {
     id: 3,
     name: "Texas",
-    price: 21.90,
+    price: 21.9,
     img: "https://lh4.googleusercontent.com/proxy/mzVFXE1mppiKGJgudLDU8fEGkdqhV1ZZNbW-WwfaiJoRYh2LuRGZsngyAJCIrb_WUhG-umdrGF2KuabW3hBhhlI6ayp5AiPChJ7F8HO_rOsyxLCSArEq_n6JTq4icB4",
     description:
       "Delicious texas pizza, with onion, garlic, and mozzarella with fresh meat and ",

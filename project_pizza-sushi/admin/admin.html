@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adminka</title>
+    <link
+      rel="stylesheet"
+      href="/project_pizza-sushi/header_style/header-style.css"
+    />
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <button class="logo">
+          <a href="/project_pizza-sushi/index.html">
+            <img
+              class="logo-img"
+              src="https://cdn-icons-png.flaticon.com/512/2619/2619060.png"
+              alt="Логотип"
+            />
+          </a>
+        </button>
+        <button class="number">
+          <a href="tel:+375 (123) 456-78-90">+375 (123) 456-78-90</a>
+        </button>
+        <div class="search">
+          <input class="search-input" type="text" placeholder="Поиск..." />
+          <button class="search-button" type="submit">
+            <img
+              class="search-button-img"
+              src="https://cdn-icons-png.flaticon.com/512/711/711319.png"
+              alt="Найти"
+            />
+          </button>
+        </div>
+        <div class="time">Прием заказов: пн-вс 10:00-22:00</div>
+        <div class="socials">
+          <button class="socials-button-instagram">
+            <a href="#"
+              ><img
+                class="socials-img-instagram"
+                src="https://static.vecteezy.com/system/resources/thumbnails/042/127/173/small/instagram-black-and-white-logo-in-app-style-with-thick-white-border-and-shadow-free-png.png"
+                alt="Instagram"
+            /></a>
+          </button>
+          <button class="socials-button-youtube">
+            <a href="#"
+              ><img
+                class="socials-img-youtube"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEhmaAhHYxXIsRegeeTs2omihyyKUY5ROwNw&s"
+                alt="YouTube"
+            /></a>
+          </button>
+        </div>
+        <button class="trash">
+          <a href="/project_pizza-sushi/trash/trash.html">
+            <img
+              class="trash-img"
+              src="https://gitlab.com/mhasilau/glk-fd1-34-24/-/raw/main/project/assets/cart.png?ref_type=heads"
+              alt="Корзина"
+            />
+          </a>
+          <span id="product-count">0</span>
+        </button>
+      </header>
+      <main>
+        <button id="add-container">Добавление</button>
+        <button id="update-container">Редактирование</button>
+        <button id="delete-container">Удаление</button>
+        <div class="pizzas">
+          <div class="add-pizza">
+            <form id="create-form">
+              <input
+                type="text"
+                id="name"
+                placeholder="Название пиццы"
+                required
+              />
+              <input type="number" id="price" placeholder="Цена" required />
+              <input
+                type="text"
+                id="img"
+                placeholder="Ссылка на картинку"
+                required
+              />
+              <textarea
+                id="description"
+                placeholder="Описание"
+                required
+              ></textarea>
+              <button id="add" type="submit">Добавить</button>
+            </form>
+          </div>
+
+          <div class="update-pizza">
+            <div>
+              <h3>Редактирование пиццы</h3>
+            </div>
+          </div>
+          <div class="delete-pizza">delete</div>
+        </div>
+      </main>
+    <script src="./admin.js"></script>
+  </body>
+</html>

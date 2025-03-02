@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  margin-top: 130px;
+  
+}
+
+.pizzas {
+  display: flex;
+  gap: 20px;
+}
+
+.add-pizza,
+.update-pizza,
+.delete-pizza {
+  border: 1px solid #ff0000;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.add-pizza form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 5px;
+}
+
+.add-pizza textarea {
+  min-height: 100px;
+}
+
+.add-pizza button {
+  background-color: #ff0000;
+  margin-top: 10px;
+}
+
+.add-pizza button:hover {
+  background-color: #771c1c;
+}
+
+.add-pizza {
+  display: block;
+}
+
+.update-pizza {
+  display: none;
+}
+
+.delete-pizza {
+  display: none;
+}
+
+.delete-pizza-form {
+  display: flex;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+}
+
+.add-container {
+    border: none;
+    
+}
