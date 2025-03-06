@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,13 +13,6 @@ body {
   color: #333;
   height: 100vh;
   margin-top: 130px;
-}
-
-header {
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -51,7 +44,6 @@ footer {
   background-color: gray;
   text-align: center;
   padding: 10px 0;
-  position: relative;
   width: 100%;
 }
 

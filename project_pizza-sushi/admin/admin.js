@@ -79,6 +79,7 @@ function showUpdateContainer() {
       });
       arr.forEach((pizza) => {
         const form = document.createElement("form");
+        form.classList.add("update-pizza-form");
         const name = document.createElement("input");
         name.type = "text";
         name.value = pizza.name;
@@ -140,16 +141,24 @@ function showDeleteContainer() {
       });
       arr.forEach((pizza) => {
         const form = document.createElement("form");
+        form.classList.add("delete-pizza-form");
         const name = document.createElement("h4");
         name.innerText = pizza.name;
         const btn = document.createElement("button");
-        btn.textContent = "Delete";
+        const del = document.createElement("img");
+        del.src =
+          "https://gitlab.com/mhasilau/glk-fd1-34-24/-/raw/main/project/assets/delete.png?ref_type=heads";
+        del.width = "24";
+        del.height = "24";
+        btn.innerHTML = "";
+        btn.classList.add("delete-btn");
+        btn.appendChild(del);
 
         btn.onclick = (event) => {
           event.preventDefault();
           deletePizza(pizza.id);
         };
-        form.append(name, btn);
+        form.append(btn, name);
         deleteContainer.appendChild(form);
       });
     });

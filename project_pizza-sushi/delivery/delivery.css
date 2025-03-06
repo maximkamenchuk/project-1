@@ -41,7 +41,8 @@ ul {
   padding-left: 20px;
 }
 
-h2, h3 {
+h2,
+h3 {
   display: flex;
   flex-direction: column;
   align-items: center;

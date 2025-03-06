@@ -13,7 +13,6 @@ main {
   padding: 20px;
   font-family: sans-serif;
   margin-top: 130px;
-  
 }
 
 .pizzas {
@@ -71,6 +70,5 @@ main {
 }
 
 .add-container {
-    border: none;
-    
+  border: none;
 }
