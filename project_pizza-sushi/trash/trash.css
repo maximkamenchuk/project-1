@@ -8,7 +8,7 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   max-width: 500px;
-  width: 400px;
+  width: 450px;
   margin: 20px auto;
 }
 
@@ -54,10 +54,8 @@ main {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 250px; 
-  border-radius: 5px;
+  width: 300px;
+  border-radius: 10px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-

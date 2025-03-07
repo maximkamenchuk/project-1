@@ -33,10 +33,9 @@ const dateInput = document.querySelector("#date");
         const pizzaName = document.createElement("h2");
         pizzaName.textContent = pizza.name;
         const pizzaPrice = document.createElement("p");
-        pizzaPrice.textContent = `Price: ${pizza.price}`;
+        pizzaPrice.textContent = `Цена: ${pizza.price}`;
         const pizzaDescription = document.createElement("p");
         pizzaDescription.textContent = pizza.description;
-
 
         const buyContainer = document.createElement("div");
         buyContainer.classList.add("buy");
@@ -49,7 +48,6 @@ const dateInput = document.querySelector("#date");
         pizzaInfo.append(pizzaImg, pizzaName, pizzaPrice, pizzaDescription);
 
         buyContainer.append(lessBtn, count, moreBtn);
-
 
         lessBtn.onclick = () => {
           if (parseInt(count.textContent) > 0) {
@@ -72,10 +70,7 @@ const dateInput = document.querySelector("#date");
           localStorage.setItem("order", JSON.stringify(orders));
         };
 
-        pizzaContainer.append(
-          pizzaInfo,
-          buyContainer
-        );
+        pizzaContainer.append(pizzaInfo, buyContainer);
         main.appendChild(pizzaContainer);
       });
     });
